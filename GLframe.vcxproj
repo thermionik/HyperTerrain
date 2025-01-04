@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{BC7EA237-7B26-4E0E-A865-95A56BDE7C86}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>c:\lib\sdl\include;%(AdditionalIncludeDirectories);C:\Users\blue9\Desktop\Hyper Terrain\include;E:\Development\Game\OpenGL\Hyper Terrain\include\SDL</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;FULLSCREEN_ASK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\GLframe.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Debug\GLframe.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0410</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\GLframe.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Debug\GLframe.exe</OutputFile>
+      <AdditionalLibraryDirectories>c:\lib\sdl\lib;%(AdditionalLibraryDirectories);C:\Users\blue9\Desktop\Hyper Terrain\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmsvcrt.a;opengl32.lib;glu32.lib;glaux.lib;odbc32.lib;odbccp32.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>c:\lib\sdl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\GLframe.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <TypeLibraryName>.\Release\GLframe.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0410</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\GLframe.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Release\GLframe.exe</OutputFile>
+      <AdditionalLibraryDirectories>c:\lib\sdl\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="dpatch.cpp" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="glFontRenderer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="quadstack.cpp" />
+    <ClCompile Include="quadtritree.cpp" />
+    <ClCompile Include="refcntptr.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="utility.cpp" />
+    <ClCompile Include="wtimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="dpatch.h" />
+    <ClInclude Include="glFontRenderer.h" />
+    <ClInclude Include="gl\gl.h" />
+    <ClInclude Include="gl\glaux.h" />
+    <ClInclude Include="gl\glcorearb.h" />
+    <ClInclude Include="gl\glu.h" />
+    <ClInclude Include="gl\glxext.h" />
+    <ClInclude Include="gl\wgl.h" />
+    <ClInclude Include="gl\wglext.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Pointer.h" />
+    <ClInclude Include="quadstack.h" />
+    <ClInclude Include="quadtritree.h" />
+    <ClInclude Include="rawvolume.h" />
+    <ClInclude Include="refcntptr.h" />
+    <ClInclude Include="SDL\begin_code.h" />
+    <ClInclude Include="SDL\close_code.h" />
+    <ClInclude Include="SDL\SDL.h" />
+    <ClInclude Include="SDL\SDL_active.h" />
+    <ClInclude Include="SDL\SDL_audio.h" />
+    <ClInclude Include="SDL\SDL_byteorder.h" />
+    <ClInclude Include="SDL\SDL_cdrom.h" />
+    <ClInclude Include="SDL\SDL_copying.h" />
+    <ClInclude Include="SDL\SDL_cpuinfo.h" />
+    <ClInclude Include="SDL\SDL_endian.h" />
+    <ClInclude Include="SDL\SDL_error.h" />
+    <ClInclude Include="SDL\SDL_events.h" />
+    <ClInclude Include="SDL\SDL_getenv.h" />
+    <ClInclude Include="SDL\SDL_joystick.h" />
+    <ClInclude Include="SDL\SDL_keyboard.h" />
+    <ClInclude Include="SDL\SDL_keysym.h" />
+    <ClInclude Include="SDL\SDL_loadso.h" />
+    <ClInclude Include="SDL\SDL_main.h" />
+    <ClInclude Include="SDL\SDL_mouse.h" />
+    <ClInclude Include="SDL\SDL_mutex.h" />
+    <ClInclude Include="SDL\SDL_name.h" />
+    <ClInclude Include="SDL\SDL_opengl.h" />
+    <ClInclude Include="SDL\SDL_quit.h" />
+    <ClInclude Include="SDL\SDL_rwops.h" />
+    <ClInclude Include="SDL\SDL_syswm.h" />
+    <ClInclude Include="SDL\SDL_thread.h" />
+    <ClInclude Include="SDL\SDL_timer.h" />
+    <ClInclude Include="SDL\SDL_types.h" />
+    <ClInclude Include="SDL\SDL_version.h" />
+    <ClInclude Include="SDL\SDL_video.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="terrmesh.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="utility.h" />
+    <ClInclude Include="utimer.h" />
+    <ClInclude Include="vertexmorph.h" />
+    <ClInclude Include="volume.h" />
+    <ClInclude Include="voxel.h" />
+    <ClInclude Include="wtimer.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

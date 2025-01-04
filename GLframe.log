@@ -1,0 +1,38 @@
+﻿  app.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+C:\Users\blue9\Desktop\Hyper Terrain\include\gl\glaux.h(17,9): warning C4068: unknown pragma
+C:\Users\blue9\Desktop\Hyper Terrain\include\gl\glaux.h(374,9): warning C4068: unknown pragma
+C:\Users\blue9\Desktop\Hyper Terrain\rawvolume.h(80,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+C:\Users\blue9\Desktop\Hyper Terrain\refcntptr.h(119,1): warning C4522: 'RefCntPtr<Vertex>': multiple assignment operators specified
+C:\Users\blue9\Desktop\Hyper Terrain\vertexmorph.h(24): message : see reference to class template instantiation 'RefCntPtr<Vertex>' being compiled
+C:\Users\blue9\Desktop\Hyper Terrain\vertexmorph.h(24): message : C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(79,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(247,31): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(253,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(253,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(253,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(273,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(299,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(300,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(301,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(301,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(310,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(311,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(313,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(313,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(322,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(323,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(325,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(325,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(334,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(335,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(337,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(337,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(366,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(374,22): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(381,22): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(388,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(401,40): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\blue9\Desktop\Hyper Terrain\app.cpp(401,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  GLframe.vcxproj -> C:\Users\blue9\Desktop\Hyper Terrain\.\Debug\GLframe.exe
