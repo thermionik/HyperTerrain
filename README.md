@@ -6,3 +6,7 @@
 Here is the heightmap used to generate the terrain:  
 
 ![screenshot of heightmap](https://github.com/thermionik/HyperTerrain/blob/main/screenshot_heightmap.png)
+
+# To Build 
+  
+Open the solution ".sln" file in Visual Studio and build the solution.
