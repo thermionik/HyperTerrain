@@ -5,7 +5,7 @@
 
 Here is the heightmap used to generate the terrain:  
 
-![screenshot of heightmap](https://github.com/thermionik/HyperTerrain/blob/main/screenshot_heightmap.png)
+![heightmap](https://github.com/thermionik/HyperTerrain/blob/main/Art/heightmap.bmp)
 
 # To Build 
   
